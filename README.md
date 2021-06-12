@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/BogdanBeerDestroyer/lab09.svg?branch=master)](https://travis-ci.org/BogdanBeerDestroyer/lab09)
 # Шумилишский ИУ8-22 Лабораторная 9
 ```sh
 $ export GITHUB_TOKEN=
