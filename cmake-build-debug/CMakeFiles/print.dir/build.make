@@ -62,10 +62,10 @@ RM = /snap/clion/152/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bogdan/lab09-1
+CMAKE_SOURCE_DIR = /home/bogdan/lab09-2/lab09
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bogdan/lab09-1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bogdan/lab09-2/lab09/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/print.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/print.dir/flags.make
 
 CMakeFiles/print.dir/sources/print.cpp.o: CMakeFiles/print.dir/flags.make
 CMakeFiles/print.dir/sources/print.cpp.o: ../sources/print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/lab09-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/print.dir/sources/print.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/print.dir/sources/print.cpp.o -c /home/bogdan/lab09-1/sources/print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/lab09-2/lab09/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/print.dir/sources/print.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/print.dir/sources/print.cpp.o -c /home/bogdan/lab09-2/lab09/sources/print.cpp
 
 CMakeFiles/print.dir/sources/print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/print.dir/sources/print.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/lab09-1/sources/print.cpp > CMakeFiles/print.dir/sources/print.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/lab09-2/lab09/sources/print.cpp > CMakeFiles/print.dir/sources/print.cpp.i
 
 CMakeFiles/print.dir/sources/print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/print.dir/sources/print.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/lab09-1/sources/print.cpp -o CMakeFiles/print.dir/sources/print.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/lab09-2/lab09/sources/print.cpp -o CMakeFiles/print.dir/sources/print.cpp.s
 
 # Object files for target print
 print_OBJECTS = \
@@ -99,7 +99,7 @@ print_EXTERNAL_OBJECTS =
 libprintd.a: CMakeFiles/print.dir/sources/print.cpp.o
 libprintd.a: CMakeFiles/print.dir/build.make
 libprintd.a: CMakeFiles/print.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bogdan/lab09-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libprintd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bogdan/lab09-2/lab09/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libprintd.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/print.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/print.dir/link.txt --verbose=$(VERBOSE)
 
@@ -113,6 +113,6 @@ CMakeFiles/print.dir/clean:
 .PHONY : CMakeFiles/print.dir/clean
 
 CMakeFiles/print.dir/depend:
-	cd /home/bogdan/lab09-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bogdan/lab09-1 /home/bogdan/lab09-1 /home/bogdan/lab09-1/cmake-build-debug /home/bogdan/lab09-1/cmake-build-debug /home/bogdan/lab09-1/cmake-build-debug/CMakeFiles/print.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bogdan/lab09-2/lab09/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bogdan/lab09-2/lab09 /home/bogdan/lab09-2/lab09 /home/bogdan/lab09-2/lab09/cmake-build-debug /home/bogdan/lab09-2/lab09/cmake-build-debug /home/bogdan/lab09-2/lab09/cmake-build-debug/CMakeFiles/print.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/print.dir/depend
 

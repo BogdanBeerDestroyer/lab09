@@ -67,10 +67,10 @@ RM = /snap/clion/152/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bogdan/lab09-1
+CMAKE_SOURCE_DIR = /home/bogdan/lab09-2/lab09
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bogdan/lab09-1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bogdan/lab09-2/lab09/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -157,7 +157,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/snap/clion/152/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/bogdan/lab09-1/cmake-build-debug/CPackSourceConfig.cmake
+	/snap/clion/152/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/bogdan/lab09-2/lab09/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -167,9 +167,9 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/lab09-1/cmake-build-debug/CMakeFiles /home/bogdan/lab09-1/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/lab09-2/lab09/cmake-build-debug/CMakeFiles /home/bogdan/lab09-2/lab09/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/lab09-1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/lab09-2/lab09/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
